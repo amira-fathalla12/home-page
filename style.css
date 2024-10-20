@@ -1,0 +1,280 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #987070, #BB9AB1);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #C39898;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background: #C39898;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background: #C39898;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #f0f2f5;
+}
+
+/* Login Box Styling */
+.login-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+    border-color: #C39898;
+    outline: none;
+}
+
+.login-box .login-btn {
+    background: #C39898;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box .login-btn img {
+    width: 24px;
+    height: auto;
+}
+
+.login-box .login-btn:hover {
+    background: #C39898;
+    transform: scale(1.05);
+}
+
+/* Main Content Section Styling */
+.main-content {
+    margin: 20px auto;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #C39898;
+}
+
+.main-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.main-content table, .main-content th, .main-content td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.main-content th {
+    background-color: #C39898;
+    color: #fff;
+}
+
+.main-content td {
+    background-color: #fafafa;
+}
+
+.profile-info {
+    font-size: 16px;
+    color: #333;
+}
+
+.profile-info ul {
+    padding-left: 20px;
+}
+
+.profile-info img.profile-photo {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news {
+    padding: 15px;
+}
+
+.news h3 {
+    font-size: 20px;
+    color: #C39898;
+}
+
+.news p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Social Links Styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+}
+
+.social-link.linkedin {
+    background-color: #C39898;
+}
+
+.social-link.twitter {
+    background-color: #e0c3b0;
+}
+
+.social-link:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(135deg, #987070, #E2DAD6);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer a.back-to-top {
+    color: #e0f2f1;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+footer a.back-to-top:hover {
+    color: #fff;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #e0f2f1;
+}

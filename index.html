@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My Website Design</h1>
+        <img src="assets/personal-information.png" alt="Website Logo">
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Login Box -->
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="#">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <button type="submit" class="login-btn">
+                    <img src="assets/key.png" alt="Login">
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <h2>My Pages Online</h2>
+        <!-- Table with 4 rows and 3 columns -->
+        <table>
+            <tr>
+                <th>My Profile</th>
+                <th>Iframe Video</th>
+                <th>News</th>
+            </tr>
+            <tr>
+                <td class="profile-info">
+                    <img src="assets/img.jpeg" alt="Personal Photo" class="profile-photo"><br>
+                    <strong>Name:</strong> Amira Fathallah<br>
+                    <strong>Age:</strong> 23<br>
+                    <strong>Address:</strong> Dokki, Giza.<br>
+                    <strong>Phone:</strong> 01063750155<br>
+                    <strong>Faculty:</strong> <a href="https://www.fci.menofia.edu.eg" target="_blank">Faculty of
+                        Computers and Information</a><br>
+                    <strong>Hobbies:</strong>
+                    <ul>
+                        <li>Reading</li>
+                        <li>Coding</li>
+                        <li>Gaming</li>
+                    </ul>
+                    <strong>Email:</strong> <a
+                        href="mailto:amira.elwishy09512375321@gmail.com">amira.elwishy09512375321@gmail.com</a><br>
+                    
+                </td>
+                <td class="iframe-container">
+                  
+                    <iframe src="assets/video.mp4"></iframe>
+
+                </td>
+                <td class="news">
+                    <h3>Latest News</h3>
+                    <p>News content goes here...</p>
+                </td>
+            </tr>
+        </table>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/amira-fathallah-69753319a/" target="_blank" class="social-link linkedin">LinkedIn</a>
+            <a href="https://www.twitter.com" target="_blank" class="social-link twitter">Twitter</a>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <a href="#top" class="back-to-top">Top of page</a>
+        <p>Copyright © ITI. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
